@@ -4,6 +4,33 @@
   background-color: rgba(232, 16, 16, 0.5);
 }
 
+#panel{
+  
+  p{
+    text-align: justify;
+  }
+
+
+  .d-sm-block{
+    
+    @media (max-width: 768px){ 
+            margin-bottom: 50vh;
+      font-size: 4vh;
+    }
+    @media (max-width: 768px) and (orientation: landscape) { 
+            margin-bottom: 80vh;
+      font-size: 4vh;
+     }
+   @media (max-width: 480px){ 
+     margin-top: 2px;
+     margin-bottom: 36vh;
+     font-size: 2vh;
+   }
+  }
+
+
+
+}
 #main .carousel-inner img {
   max-height: 100vh;
   object-fit: cover;
