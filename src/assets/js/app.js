@@ -40,5 +40,6 @@ $(function () {
 });
 // FIN
 
-//MOSTRARCERT
+//mostrar animacion 
 
+$('#panel').foundation('toggle');
