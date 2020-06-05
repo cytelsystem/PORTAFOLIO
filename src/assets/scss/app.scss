@@ -4,16 +4,11 @@
 @import "video";
 @import "variables";
 @import "cinta-header-social";
-// @import "header";
 @import "acerca";
 @import "certificaciones";
-@import "carousel-horizontal";
-@import "main";
-//@import "tablas";
-//@import "base/botones";
-//@import "base/tipografia";
-//@import "components/grids";
-//@import "components/utilities";
+// @import "carousel-horizontal";
+@import "hero";
+
 @import "foundation";
 @import "motion-ui";
 
@@ -89,58 +84,3 @@
   
 }
 
-
-// Animacion Texto main Encabezado/////
-///////////////////////////////////////
-
-.anitex {
-  animation-name: custom-10;
-  animation-duration: 3s;
-
-}
-.anitex p {
-  animation-name: custom-11;
-  animation-duration: 3s;
-}
-@keyframes custom-11 {
-  0% {
-    opacity: 0;
-    transform: rotate(-4turn) translateY(200%);
-  }
-  100% {
-    opacity: 1;
-    transform: rotate(0) translateY(0);
-  }
-}
-
-@keyframes custom-10 { 
-  0% { 
-      opacity: 0; 
-      transform: translateY(-400px);
-      color: #e6d3d314; 
-  } 
-  25% { 
-
-      color: #e6d3d352; 
-  } 
-  35% { 
-
-      color: #e0d6d699; 
-  } 
-  
-  50%{
-     opacity: 0.3; 
-     color: #e6d7d7cc;
-  }
-  75%{
-     opacity: 0.3; 
-     color: #e6d3d3;
-  }
-  100% { 
-      opacity: 1; 
-      transform: translateY(0); 
-      color: #e6d3d3;
-  } 
-
-
-} 
