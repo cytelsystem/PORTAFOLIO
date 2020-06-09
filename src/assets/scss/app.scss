@@ -8,6 +8,7 @@
 @import "acerca";
 @import "certificaciones";
 @import "timeline";
+@import "aficiones";
 
 // @import "carousel-horizontal";
 @import "hero";
@@ -84,6 +85,11 @@
 @font-face{
   font-family:"helvetica-light";
   src: url(../font/foundation-icons/helvetica-light.ttf);
+  
+}
+@font-face{
+  font-family:"lato-light";
+  src: url(../font/foundation-icons/Lato-Light.ttf);
   
 }
 
