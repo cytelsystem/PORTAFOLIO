@@ -1,0 +1,114 @@
+#s-proyectos{
+  background-color: $background-color-general-section;
+
+  margin-top: $margin-top-general-section;
+
+  #s-proyectos-container{
+   height: 100vh;
+    
+
+    .grid-x{
+
+
+      .cell{
+
+        h1{
+          
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          font-family: $font-family-1;
+          font-size: $font-size-titulo-section;
+          font-weight: $font-weight-titulo-section;
+          color: $color-titulo-section;
+          padding: $padding-titulo-section;
+          
+          
+        }
+      }
+
+      #proyec-cell{
+        // text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        // margin: 2px;
+        padding: 5px;
+        border: #000000 solid 2px;
+        background-color: #00000069;
+        margin-right: 10px;
+        margin-left: 60px;
+        margin-top: 20px;
+
+
+
+
+       
+
+
+
+        figure{
+          // display: inline-flex;
+          background-image: url(../img/bujacargo-web.jpg);
+  
+          width: 400px;
+          height: 200px;
+          // border-radius: 2px 2px 2px 2px;
+          background-position: top;
+          background-size: cover;
+          object-fit: cover;
+          border-radius: 5px;
+
+          
+
+        }
+
+
+
+        #proyectos-cell-texto{
+          margin: 0 10px 0 10px;
+          h3{
+            font-size: 3vh;
+            color:#99edca;
+          }
+          p{
+            text-align: justify;
+            color: #e4cece;
+
+          }
+          a{
+
+          }
+        }
+      }
+      @media (max-width: 480px){
+        #proyec-cell{
+          margin-top: 5px;
+          margin-right: 0px;
+          margin-left: 0px;
+          margin-top: 0px;
+
+          
+        figure{
+          width: 200px;
+          height: 100px;
+
+        }
+
+
+
+        }
+          
+
+
+
+
+
+    }
+    }
+  }
+}
+  
+
