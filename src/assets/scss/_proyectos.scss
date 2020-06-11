@@ -1,0 +1,227 @@
+#s-proyectos{
+  background-color: $background-color-general-section;
+  margin-top: $margin-top-general-section;
+
+  @media (max-width: 480px){
+    margin-top: $margin-top-media-section;
+  }
+
+  #s-proyectos-container{
+   height: 100vh;
+
+
+    .grid-x{
+
+
+      .cell{
+
+        h1{
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          font-family: $font-family-1;
+          font-size: $font-size-titulo-section;
+          font-weight: $font-weight-titulo-section;
+          color: $color-titulo-section;
+          padding: $padding-titulo-section;
+
+
+        }
+        @media (max-width: 480px){
+          h1{
+            font-size: 3.2vh;
+
+            padding: $padding-titulo-media-section;
+          }
+          #h3-proyectos{
+            margin: 10px 0px 10px 0px;
+          }
+        }
+        @media (min-width: 481px) and (max-width: 760px) and (orientation: landscape){
+          h1{
+            font-size: 20px;
+            padding: $padding-titulo-media-section;
+            }
+
+          #h3-proyectos{
+            margin: 10px 0px 10px 0px;
+          }
+        }
+      }
+
+      #proyec-cell{
+        // text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        // margin: 2px;
+        padding: 5px;
+        border: #000000 solid 2px;
+        background-color: #00000069;
+        margin-right: 10px;
+        margin-left: 60px;
+        margin-top: 20px;
+
+
+
+
+
+
+
+        figure {
+          min-width: 180px;
+          height: 200px;
+          // border-radius: 2px 2px 2px 2px;
+          background-position: top;
+          background-size: cover;
+          object-fit: cover;
+          border-radius: 5px;
+        }
+/*
+        @media (min-width: 768px){
+          min-width: 200px;
+          height: 200px;
+
+        }
+        */
+
+
+
+
+
+
+        #id-figure1{
+          background-image: url(../img/bujacargo-web.jpg);
+        }
+        #id-figure2{
+          background-image: url(../img/bellavista2.jpg);
+        }
+        #id-figure3{
+          background-image: url(../img/cajero.jpg);
+        }
+
+
+
+        #proyectos-cell-texto{
+          margin: 0 10px 0 10px;
+          h3{
+            font-size: 3vh;
+            color:#99edca;
+          }
+          p{
+            text-align: justify;
+            color: #e4cece;
+
+          }
+          a{
+            border: 5px solid #0d162742;
+            border-radius: 6px;
+            padding: 5px;
+            background-color: #0d1627;
+          }
+          a:hover{
+            color:red;
+          }
+        }
+      }
+      @media (max-width: 480px){
+        #proyec-cell{
+          margin-top: 10px;
+          margin-right: 0px;
+          margin-left: 0px;
+
+          figure{
+           min-width: 100px;
+           max-height: 100px;
+
+
+           background-position: top;
+           background-size: cover;
+           object-fit: cover;
+           border-radius: 5p
+
+          }
+          #proyectos-cell-texto{
+
+            h3{
+              font-size: 2.5vh;
+              margin-bottom: 1px;
+
+            }
+
+            p{
+
+             max-width: 500px;
+             max-height: 100px;
+             margin-bottom: 2px;
+            }
+
+            a{
+              border: 2px solid #0d162742;
+              border-radius: 3px;
+              padding: 2px;
+              // background-color: #0d1627;
+              background-color: #0d1627;
+              font-size: 10px;
+            }
+            a:hover{
+              color:red;
+            }
+          }
+        }
+      }
+      @media (min-width: 481px) and (max-width: 760px) and (orientation: landscape) {
+        #proyec-cell{
+          margin-top: 10px;
+          margin-right: 0px;
+          margin-left: 0px;
+
+
+
+          figure{
+           min-width: 130px;
+           max-height: 120px;
+
+          }
+
+          #proyectos-cell-texto{
+
+            h3{
+              font-size: 4vh;
+              margin-bottom: 1px;
+
+            }
+
+            p{
+
+             max-width: 500px;
+             max-height: 15vh;
+             font-size: 3.5vh;
+             font-family: Helvetica-light;
+             margin-bottom: 4px;
+            }
+
+            a{
+              border: 2px solid #0d162742;
+              border-radius: 3px;
+              padding: 2px;
+              // background-color: #0d1627;
+              background-color: #0d1627;
+              font-size: 10px;
+            }
+            a:hover{
+              color:red;
+            }
+          }
+        }
+      }
+
+
+    }
+  }
+}
+
+

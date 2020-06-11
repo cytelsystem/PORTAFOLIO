@@ -51,13 +51,12 @@ body {
 
      @media (max-width: 468px){
        font-size: 3.2vh;
-       
+       padding: $padding-titulo-media-section;
        
      }
      @media (min-width: 469px) and (max-width: 768px){
       font-size: 20px;
-       
-       
+
      }
 
 
