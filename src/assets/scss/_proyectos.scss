@@ -1,15 +1,14 @@
 #s-proyectos{
   background-color: $background-color-general-section;
-
-
   margin-top: $margin-top-general-section;
+
   @media (max-width: 480px){
     margin-top: $margin-top-media-section;
   }
 
   #s-proyectos-container{
    height: 100vh;
-    
+
 
     .grid-x{
 
@@ -17,7 +16,7 @@
       .cell{
 
         h1{
-          
+
           display: flex;
           align-items: center;
           text-align: center;
@@ -27,13 +26,13 @@
           font-weight: $font-weight-titulo-section;
           color: $color-titulo-section;
           padding: $padding-titulo-section;
-          
-          
+
+
         }
         @media (max-width: 480px){
           h1{
             font-size: 3.2vh;
-           
+
             padding: $padding-titulo-media-section;
           }
           #h3-proyectos{
@@ -44,8 +43,8 @@
           h1{
             font-size: 20px;
             padding: $padding-titulo-media-section;
-            color:rgb(255, 102, 0);
-          }
+            }
+
           #h3-proyectos{
             margin: 10px 0px 10px 0px;
           }
@@ -69,15 +68,11 @@
 
 
 
-       
 
 
 
         figure {
-          // display: inline-flex;
-          
-  
-          width: 400px;
+          min-width: 180px;
           height: 200px;
           // border-radius: 2px 2px 2px 2px;
           background-position: top;
@@ -85,6 +80,18 @@
           object-fit: cover;
           border-radius: 5px;
         }
+/*
+        @media (min-width: 768px){
+          min-width: 200px;
+          height: 200px;
+
+        }
+        */
+
+
+
+
+
 
         #id-figure1{
           background-image: url(../img/bujacargo-web.jpg);
@@ -110,7 +117,13 @@
 
           }
           a{
-
+            border: 5px solid #0d162742;
+            border-radius: 6px;
+            padding: 5px;
+            background-color: #0d1627;
+          }
+          a:hover{
+            color:red;
           }
         }
       }
@@ -121,15 +134,41 @@
           margin-left: 0px;
 
           figure{
-           max-width: 90px;
+           min-width: 100px;
            max-height: 100px;
+
+
+           background-position: top;
+           background-size: cover;
+           object-fit: cover;
+           border-radius: 5p
 
           }
           #proyectos-cell-texto{
+
+            h3{
+              font-size: 2.5vh;
+              margin-bottom: 1px;
+
+            }
+
             p{
-             
+
              max-width: 500px;
              max-height: 100px;
+             margin-bottom: 2px;
+            }
+
+            a{
+              border: 2px solid #0d162742;
+              border-radius: 3px;
+              padding: 2px;
+              // background-color: #0d1627;
+              background-color: #0d1627;
+              font-size: 10px;
+            }
+            a:hover{
+              color:red;
             }
           }
         }
@@ -143,25 +182,38 @@
 
 
           figure{
-           max-width: 90px;
-           max-height: 100px;
+           min-width: 130px;
+           max-height: 120px;
 
           }
+
           #proyectos-cell-texto{
 
             h3{
-              font-size: 5vh;
+              font-size: 4vh;
               margin-bottom: 1px;
-     
+
             }
-           
+
             p{
-             color:rgb(183, 0, 255);
+
              max-width: 500px;
              max-height: 15vh;
              font-size: 3.5vh;
              font-family: Helvetica-light;
              margin-bottom: 4px;
+            }
+
+            a{
+              border: 2px solid #0d162742;
+              border-radius: 3px;
+              padding: 2px;
+              // background-color: #0d1627;
+              background-color: #0d1627;
+              font-size: 10px;
+            }
+            a:hover{
+              color:red;
             }
           }
         }
@@ -171,5 +223,5 @@
     }
   }
 }
-  
+
 

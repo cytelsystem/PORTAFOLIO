@@ -218,6 +218,8 @@
 
 
 
+
+
       }
 
     }
@@ -249,3 +251,22 @@
 
 
 }
+
+
+@media (min-width: 481px) and (max-width: 760px) and (orientation: landscape){
+
+  #s-aficiones{
+    #s-aficiones-container{
+      .grid-x{
+        .cell{
+          h1{
+            font-size: 20px;
+            padding: $padding-titulo-media-section;
+          }
+        }
+      }
+    }
+  }
+}
+
+
