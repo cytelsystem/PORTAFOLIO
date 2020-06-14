@@ -43,3 +43,5 @@ $(function () {
 //mostrar animacion 
 
 $('#panel').foundation('toggle');
+
+

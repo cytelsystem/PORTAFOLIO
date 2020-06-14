@@ -5,28 +5,94 @@
 }
 
 #panel{
+
+  h1{
+    color: #fffffe;
+  }
   
   p{
     text-align: justify;
+    color: #b8bce0;
   }
 
 
-  .d-sm-block{
+  
     
-    @media (max-width: 768px){ 
-            margin-bottom: 50vh;
-      font-size: 4vh;
+    @media (max-width: 480px){ 
+      
+        h1{
+
+        }
+        p{
+          margin-top: 2px;
+          margin-bottom: 36vh;
+          font-size: 2vh;
+          
+          
+        }
+      
+    }
+    @media (min-width: 481px) and (max-width: 600px){ 
+      h1{
+
+      }
+      p{
+        margin-bottom: 50vh;
+        font-size: 2vh;
+      }
+    }
+    @media (min-width: 601px) and (max-width: 725px){ 
+      h1{
+
+      }
+
+      p{
+        margin-bottom: 60vh;
+        font-size: 2vh;
+      }
+    }
+    @media (min-width: 726px) and (max-width: 768px){ 
+      h1{
+
+      }
+
+      p{
+        margin-bottom: 60vh;
+        font-size: 2vh;
+      }
     }
     @media (max-width: 768px) and (orientation: landscape) { 
-            margin-bottom: 80vh;
-      font-size: 4vh;
+      h1{
+
+      }
+
+      p{
+        margin-bottom: 80vh;
+        font-size: 4vh;
+      }
      }
-   @media (max-width: 480px){ 
-     margin-top: 2px;
-     margin-bottom: 36vh;
-     font-size: 2vh;
-   }
-  }
+    @media (min-width: 991px) and (max-width: 1199px){ 
+      h1{
+        font-size: 4vh;
+        margin-bottom: 1vh;
+
+      }
+      p{
+        font-size: 15px;
+        text-align: inherit;
+      }
+    }
+    @media (min-width: 1200px){ 
+      h1{
+        font-size: 4vh;
+        margin-bottom: 2vh;
+      }
+      p{
+        font-size: 15px;
+       
+      }
+    }
+  
 
 
 

@@ -81,7 +81,7 @@ $alto-footer-media-landscape: 200px;
     
     
     .grid-container{
-      display: flex;
+      display: block;
       align-items: center;
       justify-content: center;
       padding: 0;
@@ -100,6 +100,7 @@ $alto-footer-media-landscape: 200px;
     }
 
     #copyring{
+      padding-top: 1vh;
  
       #cel-izq{
         display: flex;
@@ -107,7 +108,10 @@ $alto-footer-media-landscape: 200px;
         text-align: center;
 
         i{
-          font-size: 40px;
+          font-size: 30px !important;
+          color: #343a40;
+          
+          
         }
       }
 
@@ -115,12 +119,13 @@ $alto-footer-media-landscape: 200px;
         display: flex;
         align-items: center;
         text-align: center;
-        justify-content: end;
+       
         
         p{
-          font-size: small;
+          font-size: 1.5vh !important;
           margin: 0;
-          color:red;
+          text-align: center;
+          color: #343a40;
           
         }
       }
@@ -141,31 +146,59 @@ $alto-footer-media-landscape: 200px;
     border-right: 135px solid transparent;
     border-left: 135px solid transparent;
     border-bottom: 150px double #e4ebefeb;
-    
-    
-    
-    .grid-container{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0;
-     
-      #social-media{
-        .cell{
-          padding-top: 44px;
-          i{
-            font-size: 45px;
-            // background-color:rgb(72, 148, 172);
-            margin: 10px;
-            color: rgb(94, 54, 238);
+
+        .grid-container{
+          display: block;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+        
+          #social-media{
+            .cell{
+              padding-top: 44px;
+              i{
+                font-size: 45px;
+                // background-color:rgb(72, 148, 172);
+                margin: 10px;
+                color: rgb(94, 54, 238);
+              }
+            }
           }
-        }
-      }
-    }
+
+          #copyring{
+            padding-top: 1vh;
+       
+            #cel-izq{
+              display: flex;
+              align-items: center;
+              text-align: center;
+      
+              i{
+                font-size: 30px !important;
+                color: #343a40;
+              }
+            }
+      
+            #cel-der{
+              display: flex;
+              align-items: center;
+              text-align: center;
+             
+              
+              p{
+                font-size: 9px !important;
+                margin: 0;
+                text-align: justify;
+                
+                
+              }
+            }
+      
+          }
+        
+         // javier 
+        } 
   }
-
-
-
 }
 @media (min-width: 761px) and (max-width: 1400px){
   
@@ -180,7 +213,7 @@ $alto-footer-media-landscape: 200px;
     
     
     .grid-container{
-      display: flex;
+      display: block;
       align-items: center;
       justify-content: center;
       padding: 0;
@@ -215,7 +248,7 @@ $alto-footer-media-landscape: 200px;
     
     
     .grid-container{
-      display: flex;
+      display: block;
       align-items: center;
       justify-content: center;
       padding: 0;

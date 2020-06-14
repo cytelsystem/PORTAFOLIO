@@ -12,17 +12,29 @@
 
 
                 <div class="grid-x grid-margin-x" id="series-example">
+
                   <div class="cell small-3">
-                    <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Administracion-Servidores.jpg" id="series-example-1">
+                    <a href="" data-toggle="modal" data-target="#modal-servidores">
+                      <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Administracion-Servidores.jpg" id="series-example-1">
+                    </a>
                   </div>
+
                   <div class="cell small-3">
-                    <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Arquitectura-Frontend.jpg" id="series-example-2">
+                    <a href="" data-toggle="modal" data-target="#modal-frontend">
+                      <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Arquitectura-Frontend.jpg" id="series-example-2">
+                    </a>                  
                   </div>
+
                   <div class="cell small-3">
-                    <img class="thumbnail" src= "./assets/img/Diploma-Carrera-AWS.jpg" id="series-example-3">
+                    <a href="" data-toggle="modal" data-target="#modal-aws">
+                      <img class="thumbnail" src= "./assets/img/Diploma-Carrera-AWS.jpg" id="series-example-3">
+                    </a>  
                   </div>
+
                   <div class="cell small-3">
-                    <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Bdatos.jpg" id="series-example-3">
+                    <a href="" data-toggle="modal" data-target="#modal-bdatos">
+                      <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Bdatos.jpg" id="series-example-3">
+                    </a>  
                   </div>
                 </div>
                                 <!-- javier -->
@@ -36,7 +48,7 @@
           <div id="li1" class="cell small-6 medium-3 mega-menu" onmousemove="ocultarcert(event)" onmouseout="mostrarcert()">
             <a
               data-toggle="mega-menu1"
-              href="#carreras1"
+              href="#s-carreras"
               
             >
               <figure>
@@ -74,7 +86,8 @@
           <div id="li2" class="cell small-6 medium-3 mega-menu" onmousemove="ocultarcert(event)" onmouseout="mostrarcert()">
             <a
               data-toggle="mega-menu2"
-              href="./assets/img/Diploma-Carrera-Administracion-Servidores.png"
+              href="#s-carreras"
+              
             >
               <figure>
                 <img
@@ -106,7 +119,7 @@
           <div id="li3" class="cell small-6 medium-3 mega-menu" onmousemove="ocultarcert(event)" onmouseout="mostrarcert()">
             <a
               data-toggle="mega-menu3"
-              href="./assets/img/Diploma-Carrera-Arquitectura-Frontend.png"
+              href="#s-carreras"
             >
               <figure>
                 <img
@@ -138,7 +151,7 @@
           <div id="li4" class="cell small-6 medium-3 mega-menu" onmousemove="ocultarcert(event)" onmouseout="mostrarcert()">
             <a
               data-toggle="mega-menu4"
-              href="./assets/img/Diploma-Carrera-Bdatos.png"
+              href="#s-carreras"
             >
               <figure>
                 <img
@@ -261,6 +274,79 @@
       </div>
     </div>
   </div>
+
+  <!-- modal -->
+  <div id="modal-servidores" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/img/Diploma-Carrera-Administracion-Servidores.jpg" alt="">
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  <!-- modal/ -->
+  
+  <div id="modal-frontend" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/img/Diploma-Carrera-Arquitectura-Frontend.jpg" alt="">
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  <!-- modal/ -->
+   
+  <div id="modal-aws" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/img/Diploma-Carrera-AWS.jpg" alt="">
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  <!-- modal/ -->
+
+  <div id="modal-bdatos" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/img/Diploma-Carrera-Bdatos.jpg" alt="">
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  <!-- modal/ -->
 </section>
 
 <script>

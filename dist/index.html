@@ -15,16 +15,13 @@
 
 <body data-spy="scroll" data-target="#navbar" data-offset="57">
 
-
 <video role="presentation" preload="auto" playsinline="" crossorigin="anonymous" style="opacity: 1;"  loop="" muted="" id="" class="fondocss" autoplay="">
   <source src="./assets/mp4/sistemas8mb.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
 </video>
 
 <!-- Header -->
-<nav
-  id="header"
-  class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"
->
+<nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  
   <div class="container">
     <a class="navbar-brand" href="#">
       <i class="icon-logo-letras-javier"></i>
@@ -45,31 +42,34 @@
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#main">Inicio</a>
+          <a class="nav-link" href="#main" data-smooth-scroll data-animation-duration="1000">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Content-gridWrapper">Acerca</a>
+          <a class="nav-link" href="#Content-gridWrapper"  data-smooth-scroll data-animation-duration="1000">Acerca</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#s-carreras">Conocimiento</a>
+          <a class="nav-link" href="#s-carreras" data-smooth-scroll data-animation-duration="1000">Conocimiento</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#s-lineatiempo">Experiencia</a>
+          <a class="nav-link" href="#s-lineatiempo"  data-smooth-scroll data-animation-duration="1000">Experiencia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#s-proyectos">Proyectos</a>
+          <a class="nav-link" href="#s-proyectos" data-smooth-scroll data-animation-duration="1000">Proyectos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#s-aficiones">Aficiones</a>
+          <a class="nav-link" href="#s-aficiones" data-smooth-scroll data-animation-duration="1000">Aficiones</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#s-footer">Contacto</a>
+          <a class="nav-link" href="#s-footer" data-smooth-scroll data-animation-duration="1000">Contacto</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 <!-- /Header -->
+
+
+
 <!-- hero -->
 
 <main id="main">
@@ -85,7 +85,7 @@
         
             <img
             class="d-block w-100"
-            src="./assets/img/Img-header-portada.jpg"
+            src="./assets/img/Img-header-portada.webp"
             alt="Foto Portada Hector javier Moreno"
           />
         
@@ -97,7 +97,7 @@
           <div class="row align-items-center">
             
             <div id="panel" class="col-md-4 offset-md-5 anitex" data-toggler data-animate="scale-in-up spin-in">
-              <h1 class="d-none d-lg-block d-xl-block">I'M HECTOR JAVIER MORENO</h1>
+              <h1 class="d-none d-lg-block d-xl-block">Hola como estan: Bienvenidos a mi portafolio Digital</h1>
               <p class="d-sm-block">
                 ARQUITECTO FRONT-END, ADMINISTRACIÓN DE SERVIDORES Y DEVOPS,
                 BASES DE DATOS Y AMAZON WEB SERVICES.
@@ -203,17 +203,29 @@
 
 
                 <div class="grid-x grid-margin-x" id="series-example">
+
                   <div class="cell small-3">
-                    <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Administracion-Servidores.jpg" id="series-example-1">
+                    <a href="" data-toggle="modal" data-target="#modal-servidores">
+                      <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Administracion-Servidores.jpg" id="series-example-1">
+                    </a>
                   </div>
+
                   <div class="cell small-3">
-                    <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Arquitectura-Frontend.jpg" id="series-example-2">
+                    <a href="" data-toggle="modal" data-target="#modal-frontend">
+                      <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Arquitectura-Frontend.jpg" id="series-example-2">
+                    </a>                  
                   </div>
+
                   <div class="cell small-3">
-                    <img class="thumbnail" src= "./assets/img/Diploma-Carrera-AWS.jpg" id="series-example-3">
+                    <a href="" data-toggle="modal" data-target="#modal-aws">
+                      <img class="thumbnail" src= "./assets/img/Diploma-Carrera-AWS.jpg" id="series-example-3">
+                    </a>  
                   </div>
+
                   <div class="cell small-3">
-                    <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Bdatos.jpg" id="series-example-3">
+                    <a href="" data-toggle="modal" data-target="#modal-bdatos">
+                      <img class="thumbnail" src= "./assets/img/Diploma-Carrera-Bdatos.jpg" id="series-example-3">
+                    </a>  
                   </div>
                 </div>
                                 <!-- javier -->
@@ -227,7 +239,7 @@
           <div id="li1" class="cell small-6 medium-3 mega-menu" onmousemove="ocultarcert(event)" onmouseout="mostrarcert()">
             <a
               data-toggle="mega-menu1"
-              href="#carreras1"
+              href="#s-carreras"
               
             >
               <figure>
@@ -357,7 +369,8 @@
           <div id="li2" class="cell small-6 medium-3 mega-menu" onmousemove="ocultarcert(event)" onmouseout="mostrarcert()">
             <a
               data-toggle="mega-menu2"
-              href="./assets/img/Diploma-Carrera-Administracion-Servidores.png"
+              href="#s-carreras"
+              
             >
               <figure>
                 <img
@@ -556,7 +569,7 @@
           <div id="li3" class="cell small-6 medium-3 mega-menu" onmousemove="ocultarcert(event)" onmouseout="mostrarcert()">
             <a
               data-toggle="mega-menu3"
-              href="./assets/img/Diploma-Carrera-Arquitectura-Frontend.png"
+              href="#s-carreras"
             >
               <figure>
                 <img
@@ -825,7 +838,7 @@
           <div id="li4" class="cell small-6 medium-3 mega-menu" onmousemove="ocultarcert(event)" onmouseout="mostrarcert()">
             <a
               data-toggle="mega-menu4"
-              href="./assets/img/Diploma-Carrera-Bdatos.png"
+              href="#s-carreras"
             >
               <figure>
                 <img
@@ -1008,6 +1021,79 @@
       </div>
     </div>
   </div>
+
+  <!-- modal -->
+  <div id="modal-servidores" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/img/Diploma-Carrera-Administracion-Servidores.jpg" alt="">
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  <!-- modal/ -->
+  
+  <div id="modal-frontend" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/img/Diploma-Carrera-Arquitectura-Frontend.jpg" alt="">
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  <!-- modal/ -->
+   
+  <div id="modal-aws" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/img/Diploma-Carrera-AWS.jpg" alt="">
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  <!-- modal/ -->
+
+  <div id="modal-bdatos" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/img/Diploma-Carrera-Bdatos.jpg" alt="">
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  <!-- modal/ -->
 </section>
 
 <script>
@@ -1472,7 +1558,7 @@
   <div class="grid-container">
     <div id="social-media" class="grid-x">
       <div class="cell small-2 medium-2 large-2"><a href="https://www.linkedin.com/in/hectorjaviermorenoh/" target="_black"><i class="fi-social-linkedin"></i></a></div>
-      <div class="cell small-2 medium-2 large-2"><a href=""><i class="fi-at-sign"></i></a></div>
+      <div class="cell small-2 medium-2 large-2"><a href="mailto:hectorjaviermorenoh@gmail.com"><i class="fi-at-sign"></i></a></div>
       <div class="cell small-2 medium-2 large-2"><a href="https://github.com/cytelsystem" target="_black"><i class="fi-social-github"></i></a></div>
       <div class="cell small-2 medium-2 large-2"><a href="https://www.facebook.com/hector.j.moreno.16/" target="_black"><i class="fi-social-facebook"></i></a></div>
       <div class="cell small-2 medium-2 large-2"><a href="https://twitter.com/CytelSystemNet" target="_black"><i class="fi-social-twitter"></i></a></div>
@@ -1480,8 +1566,8 @@
     </div>
 
     <div id="copyring" class="grid-x">
-      <div id="cel-izq" class="cell small-12 medium-6 large-6"><i class="icon-logo-letras-javier"></i></div>
-      <div id="cel-der" class="cell small-12 medium-6 large-6"><p>© 1976-2020 CytelSyste / Hector javier Moreno. All rights reserved. </p></div>
+      <div id="cel-izq" class="cell small-2 medium-2 large-6"><i class="icon-logo-letras-javier"></i></div>
+      <div id="cel-der" class="cell small-10 medium-10 large-6"><p>© 1976-2020 CytelSystem / Hector javier Moreno. All rights reserved. </p></div>
 
 
     </div>
@@ -1490,7 +1576,6 @@
 
 
 </footer>
-
 <script src="assets/js/app.js"></script>
 
 <!-- script bootstrap -->
@@ -1501,6 +1586,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 <!-- script bootstrap fin -->
+
+<!-- script narvar-colasse -->
+   <script>
+      $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+      });
+    </script>
+
 
 
 </body>
