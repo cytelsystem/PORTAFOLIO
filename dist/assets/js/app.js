@@ -22625,30 +22625,33 @@ __webpack_require__(/*! foundation-sites */ "./node_modules/foundation-sites/dis
 
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).foundation();
-var javi = "marido de ivonne";
-console.log(javi);
-jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scroll(function () {
-    var winTop = jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scrollTop();
-
+/*
+$(function () {
+  $(window).scroll(function () {
+    var winTop = $(window).scrollTop();
     if (winTop >= 30) {
-      jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").addClass("sticky-shrinknav-wrapper");
-      jquery__WEBPACK_IMPORTED_MODULE_0___default()("#herotext").addClass("herotext");
-      jquery__WEBPACK_IMPORTED_MODULE_0___default()("#grid-container-fluid").addClass("grid-container-fluid-color");
+      $("body").addClass("sticky-shrinknav-wrapper");
+      $("#herotext").addClass("herotext");
+      $("#grid-container-fluid").addClass("grid-container-fluid-color");
     } else {
-      jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").removeClass("sticky-shrinknav-wrapper");
-      jquery__WEBPACK_IMPORTED_MODULE_0___default()("#herotext").removeClass("herotext");
-      jquery__WEBPACK_IMPORTED_MODULE_0___default()("#grid-container-fluid").removeClass("grid-container-fluid-color");
+      $("body").removeClass("sticky-shrinknav-wrapper");
+      $("#herotext").removeClass("herotext");
+      $("#grid-container-fluid").removeClass("grid-container-fluid-color");
     }
   });
-}); // FUNCIONA HEADER1
+});
+*/
 
-jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()('[data-toggle="tooltip"]').tooltip();
-}); // FIN
+/*
+// FUNCIONA HEADER1
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+// FIN
+*/
 //mostrar animacion 
-
-jquery__WEBPACK_IMPORTED_MODULE_0___default()('#panel').foundation('toggle');
+// $('#panel').foundation('toggle');
 
 /***/ }),
 

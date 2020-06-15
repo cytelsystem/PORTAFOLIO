@@ -13,11 +13,10 @@ require("foundation-sites");
 // the line below
 //import './lib/foundation-explicit-pieces';
 
+
 $(document).foundation();
-var javi = "marido de ivonne";
 
-console.log(javi);
-
+/*
 $(function () {
   $(window).scroll(function () {
     var winTop = $(window).scrollTop();
@@ -32,16 +31,18 @@ $(function () {
     }
   });
 });
+*/
 
+/*
 // FUNCIONA HEADER1
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip();
 });
 // FIN
-
+*/
 //mostrar animacion 
 
-$('#panel').foundation('toggle');
+// $('#panel').foundation('toggle');
 
 
