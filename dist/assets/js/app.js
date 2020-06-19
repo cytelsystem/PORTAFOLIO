@@ -22624,34 +22624,45 @@ __webpack_require__(/*! foundation-sites */ "./node_modules/foundation-sites/dis
 //import './lib/foundation-explicit-pieces';
 
 
-jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).foundation();
-/*
-$(function () {
-  $(window).scroll(function () {
-    var winTop = $(window).scrollTop();
-    if (winTop >= 30) {
-      $("body").addClass("sticky-shrinknav-wrapper");
-      $("#herotext").addClass("herotext");
-      $("#grid-container-fluid").addClass("grid-container-fluid-color");
-    } else {
-      $("body").removeClass("sticky-shrinknav-wrapper");
-      $("#herotext").removeClass("herotext");
-      $("#grid-container-fluid").removeClass("grid-container-fluid-color");
-    }
-  });
-});
-*/
-
-/*
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).foundation(); // $(function () {
+//   $(window).scroll(function () {
+//     var winTop = $(window).scrollTop();
+//     if (winTop >= 30) {
+//       $("body").addClass("sticky-shrinknav-wrapper");
+//       $("#herotext").addClass("herotext");
+//       $("#grid-container-fluid").addClass("grid-container-fluid-color");
+//     } else {
+//       $("body").removeClass("sticky-shrinknav-wrapper");
+//       $("#herotext").removeClass("herotext");
+//       $("#grid-container-fluid").removeClass("grid-container-fluid-color");
+//     }
+//   });
+// });
 // FUNCIONA HEADER1
 
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip();
-});
-// FIN
-*/
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('[data-toggle="tooltip"]').tooltip();
+}); // FIN
 //mostrar animacion 
-// $('#panel').foundation('toggle');
+
+jquery__WEBPACK_IMPORTED_MODULE_0___default()('#panel').foundation('toggle'); // cambio en pixeles  media
+
+function myFunction(x) {
+  if (x.matches) {
+    // Si la consulta de medios coincide
+    // document.body.style.backgroundColor = "yellow";
+    var b = document.querySelector("#pruebap");
+    b.setAttribute("data-threshold", "700");
+  } else {
+    var b = document.querySelector("#pruebap");
+    b.setAttribute("data-threshold", "0");
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)");
+myFunction(x); // Llamar a la función de escucha en tiempo de ejecución
+
+x.addListener(myFunction); // Adjuntar función de escucha en cambios de estado
 
 /***/ }),
 
