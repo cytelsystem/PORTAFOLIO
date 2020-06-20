@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./assets/font/foundation-icons/foundation-icons.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
   </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="57">
@@ -34,6 +35,7 @@
       
     </a>
     <button class="navbar-toggler"
+      
       type="button"
       data-toggle="collapse"
       data-target="#navbar"
@@ -43,30 +45,29 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#main" data-smooth-scroll data-animation-duration="1000">Inicio</a>
+          <a id="id-inicio" class="nav-link" href="#main" data-smooth-scroll data-animation-duration="1000" data-offset="0">Inicio</a>
         </li>
         <li class="nav-item">
-          <!-- <a class="nav-link" href="#Content-gridWrapper"  data-smooth-scroll data-animation-duration="1000">Acerca</a> -->
-          <a id="pruebap" class="nav-link" href="#Content-gridWrapper"  data-smooth-scroll data-animation-duration="1000" data-threshold="700">Acerca</a>
-          
+          <a id="id-acerca" class="nav-link" href="#Content-gridWrapper"  data-smooth-scroll data-animation-duration="1000" data-offset="0">Acerca</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#s-carreras" data-smooth-scroll data-animation-duration="1000">Conocimiento</a>
+          <a id="id-conocimiento" class="nav-link" href="#s-carreras" data-smooth-scroll data-animation-duration="1000" data-offset="0">Conocimiento</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#s-lineatiempo"  data-smooth-scroll data-animation-duration="1000">Experiencia</a>
+          <a id="id-experiencia" class="nav-link" href="#s-lineatiempo"  data-smooth-scroll data-animation-duration="1000" data-offset="0">Experiencia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#s-proyectos" data-smooth-scroll data-animation-duration="1000">Proyectos</a>
+          <a id="id-proyectos" class="nav-link" href="#s-proyectos" data-smooth-scroll data-animation-duration="1000" data-offset="0">Proyectos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#s-aficiones" data-smooth-scroll data-animation-duration="1000">Aficiones</a>
+          <a id="id-aficiones" class="nav-link" href="#s-aficiones" data-smooth-scroll data-animation-duration="1000" data-offset="0">Aficiones</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#s-footer" data-smooth-scroll data-animation-duration="1000">Contacto</a>
+          <a id="id-contacto" class="nav-link" href="#s-footer" data-smooth-scroll data-animation-duration="1000" data-offset="0">Contacto</a>
         </li>
       </ul>
     </div>
@@ -74,25 +75,10 @@
 </nav>
 <!-- /Header -->
 
-<!--  
-<script>
-  function myFunction(x) {
-    if (x.matches) { // Si la consulta de medios coincide
-      // document.body.style.backgroundColor = "yellow";
-      var b = document.querySelector("#pruebap"); 
-      b.setAttribute("data-threshold", "900");
-    } else {
-      var b = document.querySelector("#pruebap"); 
-      b.setAttribute("data-threshold", "500");
-    }
-  }
-  
-  var x = window.matchMedia("(max-width: 700px)")
-  myFunction(x) // Llamar a la función de escucha en tiempo de ejecución
-  x.addListener(myFunction) // Adjuntar función de escucha en cambios de estado
-  </script>
 
-  -->
+
+
+
 <!-- hero -->
 
 <main id="main">
@@ -1355,7 +1341,7 @@
                 </div>
                 <div class="modal-body">
                   <div class="responsive-embed widescreen">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6RW0W0T8zlw" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7KvNhrExa0" frameborder="0" allowfullscreen></iframe>
                   </div>
                   
                 </div>
@@ -1588,23 +1574,31 @@
 
 
 </footer>
+
+
 <script src="assets/js/app.js"></script>
 
 <!-- script bootstrap -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+     <!-- 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="index.js"></script>
+      -->
 <!-- script bootstrap fin -->
 
-<!-- script narvar-colasse -->
+<!-- script narvar-colasse cierra el boton cuando se hace click en media-->
    <script>
       $('.navbar-nav>li>a').on('click', function(){
         $('.navbar-collapse').collapse('hide');
       });
-    </script>
+   </script>
 
 
 
