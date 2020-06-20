@@ -22668,6 +22668,18 @@ function myFunction(x) {
   } else {
     var b = document.querySelector("#id-inicio");
     b.setAttribute("data-offset", "0");
+    var b = document.querySelector("#id-acerca");
+    b.setAttribute("data-offset", "0");
+    var b = document.querySelector("#id-conocimiento");
+    b.setAttribute("data-offset", "0");
+    var b = document.querySelector("#id-experiencia");
+    b.setAttribute("data-offset", "0");
+    var b = document.querySelector("#id-proyectos");
+    b.setAttribute("data-offset", "0");
+    var b = document.querySelector("#id-aficiones");
+    b.setAttribute("data-offset", "0");
+    var b = document.querySelector("#id-contacto");
+    b.setAttribute("data-offset", "0");
   }
 }
 
