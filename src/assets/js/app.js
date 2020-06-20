@@ -53,35 +53,35 @@ $('#panel').foundation('toggle');
 function myFunction(x) {
 if (x.matches) { // Si la consulta de medios coincide
 // document.body.style.backgroundColor = "yellow";
-var b = document.querySelector("#id-inicio"); 
-b.setAttribute("data-offset", "400");
-var b = document.querySelector("#id-acerca"); 
-b.setAttribute("data-offset", "320");
-var b = document.querySelector("#id-conocimiento"); 
-b.setAttribute("data-offset", "320");
-var b = document.querySelector("#id-experiencia"); 
-b.setAttribute("data-offset", "320");
-var b = document.querySelector("#id-proyectos"); 
-b.setAttribute("data-offset", "320");
-var b = document.querySelector("#id-aficiones"); 
-b.setAttribute("data-offset", "320");
-var b = document.querySelector("#id-contacto"); 
+var b1 = document.querySelector("#id-inicio"); 
+b1.setAttribute("data-offset", "400");
+var b2 = document.querySelector("#id-acerca"); 
+b2.setAttribute("data-offset", "320");
+var b3 = document.querySelector("#id-conocimiento"); 
+b3.setAttribute("data-offset", "320");
+var b4 = document.querySelector("#id-experiencia"); 
+b4.setAttribute("data-offset", "320");
+var b5 = document.querySelector("#id-proyectos"); 
+b5.setAttribute("data-offset", "320");
+var b6 = document.querySelector("#id-aficiones"); 
+b6.setAttribute("data-offset", "320");
+var b7 = document.querySelector("#id-contacto"); 
 b.setAttribute("data-offset", "320");
 } else {
-  var b = document.querySelector("#id-inicio"); 
-  b.setAttribute("data-offset", "0");
-  var b = document.querySelector("#id-acerca"); 
-  b.setAttribute("data-offset", "0");
-  var b = document.querySelector("#id-conocimiento"); 
-  b.setAttribute("data-offset", "0");
-  var b = document.querySelector("#id-experiencia"); 
-  b.setAttribute("data-offset", "0");
-  var b = document.querySelector("#id-proyectos"); 
-  b.setAttribute("data-offset", "0");
-  var b = document.querySelector("#id-aficiones"); 
-  b.setAttribute("data-offset", "0");
-  var b = document.querySelector("#id-contacto"); 
-  b.setAttribute("data-offset", "0");
+  var b1 = document.querySelector("#id-inicio"); 
+  b1.setAttribute("data-offset", "0");
+  var b2 = document.querySelector("#id-acerca"); 
+  b2.setAttribute("data-offset", "0");
+  var b3 = document.querySelector("#id-conocimiento"); 
+  b3.setAttribute("data-offset", "0");
+  var b4 = document.querySelector("#id-experiencia"); 
+  b4.setAttribute("data-offset", "0");
+  var b5 = document.querySelector("#id-proyectos"); 
+  b5.setAttribute("data-offset", "0");
+  var b6 = document.querySelector("#id-aficiones"); 
+  b6.setAttribute("data-offset", "0");
+  var b7 = document.querySelector("#id-contacto"); 
+  b7.setAttribute("data-offset", "0");
 
 }
 }
