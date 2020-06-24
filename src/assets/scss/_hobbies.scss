@@ -1,0 +1,19 @@
+
+section{
+  .grid-container{
+    grid-x{
+      .cell{
+        background-color:blue;
+        div{
+          // background-color:red;
+          border-radius: 50%;
+          border: 2px solid black;
+          margin: 5vh;
+          color:red;
+          
+
+        }
+      }
+    }
+  }
+}
