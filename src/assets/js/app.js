@@ -44,7 +44,7 @@ $(function () {
 
 //mostrar animacion 
 
-$('#panel').foundation('toggle');
+// $('#panel').foundation('toggle');
 
 
 // cambio en pixeles  media para narvar 

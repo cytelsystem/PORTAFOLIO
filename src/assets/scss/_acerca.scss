@@ -6,6 +6,7 @@
   height: auto;
   width: 100%;
   position: relative;
+  background-color: #00000069;
 
   #Content-gridWrapper {
     pointer-events: none;
@@ -63,7 +64,7 @@
 
           span{
             span{
-              font-family: helvetica-light;
+              font-family: lato-light;
               color:$color-acerca-texto-span;
             }
           }

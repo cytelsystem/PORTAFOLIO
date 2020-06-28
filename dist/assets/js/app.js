@@ -22644,8 +22644,8 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('[data-toggle="tooltip"]').tooltip();
 }); // FIN
 //mostrar animacion 
-
-jquery__WEBPACK_IMPORTED_MODULE_0___default()('#panel').foundation('toggle'); // cambio en pixeles  media para narvar 
+// $('#panel').foundation('toggle');
+// cambio en pixeles  media para narvar 
 
 function myFunction(x) {
   if (x.matches) {
