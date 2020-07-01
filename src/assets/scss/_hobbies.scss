@@ -18,6 +18,11 @@ $height-circulo-i-hobbies: 100%;
   margin-top: $margin-top-general-section;
   margin-bottom: 5px;
 
+    @media (min-width: 800px){
+      height: 100vh;
+      margin-bottom: 5vh;
+    }
+
 
   .grid-container{
    
@@ -30,7 +35,8 @@ $height-circulo-i-hobbies: 100%;
         // background-color:rgb(68, 17, 163);
         // border: 2px solid $background-color-general-section;
         @media (min-width: 800px){
-         margin-top: -20px;
+          margin-top: -10px;
+          
         }
 
         h1{
