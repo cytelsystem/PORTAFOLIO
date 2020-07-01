@@ -49,7 +49,6 @@ $(function () {
 
 // cambio en pixeles  media para narvar 
 
-
 function myFunction(x) {
 if (x.matches) { // Si la consulta de medios coincide
 // document.body.style.backgroundColor = "yellow";
