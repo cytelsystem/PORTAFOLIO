@@ -22654,7 +22654,7 @@ function myFunction(x) {
     var b11 = document.querySelector("#id-inicio");
     b11.setAttribute("data-offset", "400");
     var b22 = document.querySelector("#id-acerca");
-    b22.setAttribute("data-offset", "500");
+    b22.setAttribute("data-offset", "364");
     var b33 = document.querySelector("#id-conocimiento");
     b33.setAttribute("data-offset", "365");
     var b44 = document.querySelector("#id-habilidades");
