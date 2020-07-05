@@ -6,15 +6,11 @@
     margin-top: $margin-top-media-section;
   }
 
-
-
   #s-proyectos-container{
    height: 100vh;
 
 
     .grid-x{
-      display: flex;
-      justify-content: center;
 
 
       .cell{
@@ -30,16 +26,6 @@
           font-weight: $font-weight-titulo-section;
           color: $color-titulo-section;
           padding: $padding-titulo-section;
-
-          @media (max-width: 468px){
-            font-size: 3.2vh;
-            padding: $padding-titulo-media-section;
-            
-          }
-          @media (min-width: 469px) and (max-width: 768px){
-           font-size: 20px;
-     
-          }
 
 
         }
@@ -78,9 +64,7 @@
         margin-right: 10px;
         margin-left: 60px;
         margin-top: 20px;
-        @media (min-width: 481px){
-          margin-left: 0;
-        }
+
 
 
 
@@ -96,6 +80,18 @@
           object-fit: cover;
           border-radius: 5px;
         }
+/*
+        @media (min-width: 768px){
+          min-width: 200px;
+          height: 200px;
+
+        }
+        */
+
+
+
+
+
 
         #id-figure1{
           background-image: url(../img/bujacargo-web.webp);
@@ -106,6 +102,8 @@
         #id-figure3{
           background-image: url(../img/cajero.webp);
         }
+
+
 
         #proyectos-cell-texto{
           margin: 0 10px 0 10px;
@@ -129,8 +127,6 @@
           }
         }
       }
-
-
       @media (max-width: 480px){
         #proyec-cell{
           margin-top: 10px;
@@ -192,11 +188,10 @@
           }
 
           #proyectos-cell-texto{
-            margin: 0 0 0 5px;
 
             h3{
-              font-size: 3.5vh;
-              margin-bottom: 0px;
+              font-size: 4vh;
+              margin-bottom: 1px;
 
             }
 
@@ -204,10 +199,9 @@
 
              max-width: 500px;
              max-height: 15vh;
-             font-size: 2.7vh;
+             font-size: 3.5vh;
              font-family: Helvetica-light;
              margin-bottom: 4px;
-             
             }
 
             a{

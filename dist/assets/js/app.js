@@ -22624,28 +22624,34 @@ __webpack_require__(/*! foundation-sites */ "./node_modules/foundation-sites/dis
 //import './lib/foundation-explicit-pieces';
 
 
-jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).foundation(); // $(function () {
-//   $(window).scroll(function () {
-//     var winTop = $(window).scrollTop();
-//     if (winTop >= 30) {
-//       $("body").addClass("sticky-shrinknav-wrapper");
-//       $("#herotext").addClass("herotext");
-//       $("#grid-container-fluid").addClass("grid-container-fluid-color");
-//     } else {
-//       $("body").removeClass("sticky-shrinknav-wrapper");
-//       $("#herotext").removeClass("herotext");
-//       $("#grid-container-fluid").removeClass("grid-container-fluid-color");
-//     }
-//   });
-// });
-// FUNCIONA HEADER1
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).foundation(); // al scroll seccion hobbies detona el toggle  de la animacion div contorno1
+//keep element in view
+
+(function ($) {
+  $(document).ready(function () {
+    var elementPosTop = $('#s-hobbies').position().top;
+    $(window).scroll(function () {
+      var wintop = $(window).scrollTop(),
+          docheight = $(document).height(),
+          winheight = $(window).height(); //if top of element is in view
+
+      if (wintop > elementPosTop) {
+        $(function () {
+          $('#contorno1').foundation('toggle');
+        });
+      } else {// alert("no funciono es con otro")
+      }
+    });
+  });
+})(jQuery); // FUNCIONA HEADER1
+
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('[data-toggle="tooltip"]').tooltip();
-}); // FIN
-//mostrar animacion 
-// $('#panel').foundation('toggle');
-// cambio en pixeles  media para narvar 
+});
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#panel1').foundation('toggle');
+}); // cambio en pixeles  media para narvar 
 
 function myFunction(x) {
   if (x.matches) {

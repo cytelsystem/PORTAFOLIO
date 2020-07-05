@@ -66,7 +66,7 @@
         <li class="nav-item">
           <a id="id-proyectos" class="nav-link" href="#s-proyectos" data-smooth-scroll data-animation-duration="1000" data-offset="0">Proyectos</a>
         </li>
-        <li class="nav-item" data-toggle="contorno1">
+        <li class="nav-item" data-toggle="entorno1">
           <a id="id-aficiones" class="nav-link" href="#s-hobbies" data-smooth-scroll data-animation-duration="1000" data-offset="0">Aficiones</a>
         </li>
         <li class="nav-item">
@@ -84,7 +84,7 @@
 
 <!-- hero -->
 
-<main id="main">
+<main id="main" onwheel="mymain()">
    <div
     id="carousel"
     class="carousel slide carousel-fade"
@@ -148,7 +148,7 @@
                 <p>
                   <span>
                     <span>
-                      Poseo conocimientos en arquitectura <strong style="font-family: helvetica-light; color:#f4cccc;"> front-end,
+                      Poseo conocimientos en arquitectura <strong style="font-family: helvetica-light; color:#ffffff;"> front-end,
                        administración de servidores y Devops,
                         bases de datos y Amazon Web Services</strong>. Asimismo, 
                         amplia experiencia, destreza y conocimientos en diseño,
@@ -1365,11 +1365,11 @@
 
   <div id="s-proyectos-container" class="grid-container">
     <div class="grid-x">
-      <div id="h3-proyectos" class="cell medium-6 medium-offset-3">
+      <div id="h3-proyectos" class="cell medium-12">
         <h1>05 Proyectos</h1>
       </div>
 
-      <div id="proyec-cell" class="cell small-12 medium-6 large-5">
+      <div id="proyec-cell" class="cell small-12 medium-5 large-5">
         
           <figure id="id-figure1"></figure>
           <div id="proyectos-cell-texto">
@@ -1379,8 +1379,9 @@
           </div>
         
       </div>
+      <div class="cell medium-1"></div>
 
-      <div id="proyec-cell" class="cell small-12 medium-6 large-5">
+      <div id="proyec-cell" class="cell small-12 medium-5 large-5">
         <figure id="id-figure2"></figure>
         <div id="proyectos-cell-texto">
           <h3>Proyecto Camaras</h3>
@@ -1410,7 +1411,7 @@
 
         </div>
       </div>
-      <div id="proyec-cell" class="cell small-12 medium-6 large-5">
+      <div id="proyec-cell" class="cell small-12 medium-5 large-5">
         <figure id="id-figure3"> </figure>
         <div id="proyectos-cell-texto">
           <h3>Base de Datos Cajero</h3>
@@ -1439,20 +1440,18 @@
           <!-- modal/ -->
         </div>
       </div>
-
-
-
-
+      <div class="cell medium-1"></div>
+      <div class="cell small-12 medium-5 large-5"></div>
 
     </div>
 
   </div>
 
-
 </section>
 
 
-<section id="s-hobbies"  onwheel="myFunction()">
+<!-- <section id="s-hobbies"  onwheel="my79904519()"> -->
+<section id="s-hobbies">
   
   
   <div id="s-hobbies-container" class="grid-container fluid">
@@ -1463,7 +1462,7 @@
         </div>
 
         <div class="cell medium-4 medium-offset-2">
-          <div id="contorno1" class="contorno">
+          <div id="contorno1" class="contorno" data-toggler data-animate="entrandoin saliendoout">
             <div><div class="hobbies-circulo"><i id="balon" class="icon-fi-balon-futbol"></i></div></div>
             <h4>Fútbol</h4>
             <p>He jugado fútbol desde que era niño. Es mi deporte favorito.</p>
@@ -1502,16 +1501,17 @@
  
 <!-- Fucion no funcionando que permite ejecutar algo con scroll y onwheel="myFunction() en el div -->
 <script>
-document.getElementById("s-hobbies").addEventListener("wheel", myFunction);
-
-function myFunction() {
   
-  // this.style.fontSize = "35px";
+  // function myFunction() {
+    
+    // document.getElementById("s-hobbies").addEventListener("wheel", myFunction);
   
- 
+  
+    // document.getElementById("s-hobbies").style.backgroundColor = "red";
 
-  //term
-}
+  // }
+
+
 </script>
 
 <footer id="s-footer">
