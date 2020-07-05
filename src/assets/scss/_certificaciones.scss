@@ -1,8 +1,10 @@
 #s-carreras {
 
     background-color: $background-color-acerca-gridcontainer;
-    height: 100vh;
     
+    @media (min-width: 1400px) and (min-height: 625px){
+      height: 100vh;
+    }
 
 
   .grid-container {
@@ -250,7 +252,6 @@
     }
 
   }
- 
 }
 
 // modales certificados carreras
