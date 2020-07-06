@@ -33,7 +33,7 @@
           font-weight: $font-weight-titulo-section;
           color: $color-titulo-section;
           padding: $padding-titulo-section;
-          margin-bottom: 6px !important;
+          margin-bottom: 6px;
 
           @media (max-width: 468px){
             font-size: 3.2vh;
@@ -237,7 +237,7 @@
         #h3-proyectos{
           
           h1{
-            margin-bottom: 5vh;;
+            margin-bottom: 8vh;;
           }
         }
 
