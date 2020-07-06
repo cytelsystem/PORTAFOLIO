@@ -11,9 +11,7 @@
   #s-container-habilidades{
     .grid-x{
       justify-content: center;
-      
 
-      
       h1{
           
         display: flex;
@@ -83,7 +81,6 @@
 }
 
 @media (min-width: 481px) and (max-width: 760px) and (orientation: landscape){
-
     #s-habilidades{
       #s-container-habilidades{
         .grid-x{
@@ -91,7 +88,6 @@
             h1{
               font-size: 20px;
               padding: $padding-titulo-media-section;
-              
             }
           }
         }
