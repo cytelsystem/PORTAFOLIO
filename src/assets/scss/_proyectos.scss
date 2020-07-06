@@ -33,6 +33,7 @@
           font-weight: $font-weight-titulo-section;
           color: $color-titulo-section;
           padding: $padding-titulo-section;
+          margin-bottom: 6px !important;
 
           @media (max-width: 468px){
             font-size: 3.2vh;
@@ -81,7 +82,7 @@
         background-color: #00000069;
         margin-right: 10px;
         margin-left: 60px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
 
         @media (min-width: 481px){
           margin-left: 0;
