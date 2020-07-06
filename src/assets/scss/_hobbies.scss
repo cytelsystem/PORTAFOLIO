@@ -162,3 +162,17 @@ $height-circulo-i-hobbies: 100%;
   }
 }
 
+@media (min-width: 1400px) and (min-height: 625px){
+  #s-hobbies{
+    #s-hobbies-container{
+      .grid-x{
+        #s-hobbies-title{
+          margin-bottom: 10vh;
+        }
+      }
+    }
+  }
+
+  
+}
+
