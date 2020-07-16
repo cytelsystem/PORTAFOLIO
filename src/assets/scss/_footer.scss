@@ -1,4 +1,5 @@
 $color-fondo-footer: #343a40;
+$color-fondo-footer-i: #ff0000;
 $ancho-footer-lg: 100%;
 $alto-footer-lg: 200px;
 $ancho-footer-media-sm: 100%;
@@ -32,7 +33,7 @@ $alto-footer-media-landscape: 200px;
           font-size: 60px;
           // background-color:rgb(72, 148, 172);
           margin: 10px;
-          color: rgb(94, 54, 238);
+          color: $color-fondo-footer-i;
         }
       }
     }
@@ -94,7 +95,7 @@ $alto-footer-media-landscape: 200px;
             font-size: 30px;
             // background-color:rgb(72, 148, 172);
             margin: 10px;
-            color: rgb(94, 54, 238);
+            color: $color-fondo-footer-i;
           }
         }
       }
@@ -161,7 +162,7 @@ $alto-footer-media-landscape: 200px;
                 font-size: 45px;
                 // background-color:rgb(72, 148, 172);
                 margin: 10px;
-                color: rgb(94, 54, 238);
+                color: $color-fondo-footer-i;
               }
             }
           }
@@ -226,9 +227,18 @@ $alto-footer-media-landscape: 200px;
             font-size: 45px;
             // background-color:rgb(72, 148, 172);
             margin: 10px;
-            color: rgb(94, 54, 238);
+            color: $color-fondo-footer-i;
           }
         }
+      }
+      #copyring{
+        margin-top: -10px;
+        p,
+        i{
+         // margin-bottom: 20px !important;
+         // color:green;
+        }
+
       }
     }
   }
@@ -261,7 +271,7 @@ $alto-footer-media-landscape: 200px;
             font-size: 50px;
             // background-color:rgb(72, 148, 172);
             margin: 10px;
-            color: rgb(94, 54, 238);
+            color: $color-fondo-footer-i;
           }
         }
       }
