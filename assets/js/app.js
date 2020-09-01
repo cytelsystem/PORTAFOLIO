@@ -22707,7 +22707,7 @@ x.addListener(myFunction); // Adjuntar función de escucha en cambios de estado
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! c:\hectorjm\Proyectos\portafolio-new\src\assets\js\app.js */"./src/assets/js/app.js");
+module.exports = __webpack_require__(/*! C:\hectorjm\Proyectos\portafolio-new\src\assets\js\app.js */"./src/assets/js/app.js");
 
 
 /***/ })
